@@ -1,6 +1,6 @@
 'use client';
 
-import '/Users/matthewmertz/Documents/subscription-app/styles/main.css'
+import 'styles/main.css'
 import Button from '@/components/ui/Button/Button';
 import { Database } from '@/types/supabase';
 import { postData } from '@/utils/helpers';

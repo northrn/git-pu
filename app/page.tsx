@@ -1,4 +1,4 @@
-import '/Users/matthewmertz/Documents/subscription-app/styles/main.css'
+import 'styles/main.css'
 import Pricing from '@/components/Pricing';
 import {
   getSession,
