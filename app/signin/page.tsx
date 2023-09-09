@@ -4,6 +4,8 @@ import AuthUI from './AuthUI';
 import { redirect } from 'next/navigation';
 import Logo from '@/components/icons/Logo';
 
+export const dynamic = "force-dynamic"
+
 export default async function SignIn() {
   const session = await getSession();
 
