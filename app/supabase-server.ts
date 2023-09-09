@@ -7,6 +7,7 @@ export const createServerSupabaseClient = cache(() =>
   createServerComponentClient<Database>({ cookies })
 );
 
+
 export async function getSession() {
   const supabase = createServerSupabaseClient();
   try {
